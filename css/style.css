@@ -20,7 +20,6 @@ header{
 }
 
 .first {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -69,3 +68,443 @@ header{
     padding-bottom: 1rem;
 }
 
+.two {
+    border-radius: 6rem;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+.three {
+    border-radius: 6rem;
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+}
+
+main {
+
+}
+
+.intro {
+    h3 {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+}
+
+.bef {
+    padding-bottom: 1rem;
+    background-color: #ebebeb;
+}
+
+.sty {
+    border-radius: 6rem;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: darkgreen;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.yvn {
+    
+}
+
+.sec {
+    icons {
+        border-color: transparent;
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+.nad {
+        border-radius: 15rem;
+    padding: 1rem;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.sec .material-symbols {
+    font-size: 1rem;
+}
+
+.aft {
+    padding-top: 1rem;
+    background-color: #ebebeb;
+    p {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+.ern {
+    border-radius: 6rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: coral;
+}
+
+.cia {
+    border-radius: 6rem;
+    color: antiquewhite;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.olog {
+    border-radius: 6rem;
+    color: #fff;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.prs {
+    border-radius: 6rem;
+    color: #000;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.secto {
+    display: block;
+    gap: 1rem;
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 3rem 0;
+    border-radius: 2rem;
+}
+
+.day {
+    display: block;
+    gap: 1rem;
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    width: 200px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.res {
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 1rem;
+    width: 200px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.arg {
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    width: 200px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.like {
+    h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.both {
+    display: block;
+    gap: 1rem;
+    background-color: gold;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.trac {
+    padding: 1rem;
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+.wel {
+    display: block;
+    gap: 1rem;
+    width: 200px;
+    justify-self: center;
+}
+
+.iphone {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.fun {
+    background-color: darkorange;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.emo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: darkorange;
+}
+
+.fest {
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+
+}
+.celebrate {
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+}
+
+.cool {
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+}
+
+.effort {
+    background-color: plum;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    p {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.cam {
+    border-radius: 7rem;
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.hw {
+    background-color: #ebebeb;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.def {
+    text-align: center;
+}
+
+.message {
+    background-color: #ebebeb;
+    padding: 1rem;
+    display: block;
+    gap: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.john {
+    margin-bottom: 2rem;
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    p {
+        margin-bottom: 1rem;
+        span {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.emily {
+    margin-bottom: 2rem;
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    p {
+        margin-bottom: 1rem;
+        span {
+            margin-bottom: 1rem;
+        }
+    } 
+}
+
+.kim {
+    margin-bottom: 2rem;
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    p {
+        margin-bottom: 1rem;
+        span {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.sebastian {
+    margin-bottom: 2rem;
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    p {
+        margin-bottom: 1rem;
+        span {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.patel {
+    margin-bottom: 2rem;
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    p {
+        margin-bottom: 1rem;
+        span {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.jaden {
+    margin-bottom: 2rem;
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    p {
+        margin-bottom: 1rem;
+        span {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.john-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.net {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.quest {
+    h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.sam{
+    border-radius: 6rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    span {
+        color: coral;
+    }
+}
+
+.tag {
+    ul {
+        text-align: center;
+        margin-bottom: 2rem;
+        li {
+           margin-bottom: 1rem;
+           span {
+            color: orange;
+            font-size: 1rem;
+        }
+        }
+    }
+}
+
+.app {
+    background-image: url(../images/original-6eb844c44e06b4e07223b5d215b270d8.jpg);
+    h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+    p {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: beige; 
+    }
+}
+
+.but {
+    margin-bottom: 1rem;
+}
+
+.rebase {
+    border-radius: 30px;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.png {
+    border-radius: 30px;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.play {
+    width: 10px;
+    height: 10px;
+}
+
+.odam {
+    margin-bottom: 2rem;
+}
+
+.planoo {
+    margin-bottom: 1rem;
+}
+
+.face {
+    width: 10px;
+    height: 10px;
+}
