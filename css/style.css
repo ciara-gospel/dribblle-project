@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: 'system-ui', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+  font-family: system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.plan, 
+.plan,
 .circles {
   width: 20px;
   height: 20px;
@@ -38,7 +38,7 @@ header {
   li {
     justify-content: space-between;
     padding: 0.5rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -126,10 +126,10 @@ header {
 }
 
 .ern {
-   border-radius: 6rem;
-   padding: 1rem;
-   color: #fff;
-   background-color: coral;
+  border-radius: 6rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: coral;
 }
 
 .cia {
@@ -284,7 +284,7 @@ header {
   border-radius: 10px;
 
   p {
-    text-align: center;    
+    text-align: center;   
     margin-bottom: 1rem;
   }
 }
@@ -315,8 +315,9 @@ header {
   border-radius: 1rem;
 
   span {
-    color: coral; 
+    color: coral;
   }
+
 }
 
 .john {
@@ -380,6 +381,7 @@ header {
 
   p {
     margin-bottom: 1rem;
+
     span {
       margin-bottom: 1rem;
     }
@@ -396,6 +398,7 @@ header {
 
   p {
     margin-bottom: 1rem;
+
     span {
       margin-bottom: 1rem;
     }
@@ -446,10 +449,10 @@ header {
 }
 
 .tag {
-
   ul {
     text-align: center;
     margin-bottom: 2rem;
+
     li {
       margin-bottom: 1rem;
 
