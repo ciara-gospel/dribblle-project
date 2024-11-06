@@ -5,16 +5,17 @@
 }
 
 body {
-  font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'system-ui', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
 }
 
-.plan, .circles{
+.plan, 
+.circles {
   width: 20px;
   height: 20px;
   display: flex;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
 }
@@ -37,9 +38,8 @@ header{
   li {
     justify-content: space-between;
     padding: 0.5rem;
-    margin-bottom:0rem
+    margin-bottom: 0rem;
   }
-
 }
 
 .one {
@@ -55,7 +55,8 @@ header{
 
 .first-part {
   background-color: #ebebeb;
-  h2{
+
+  h2 {
     padding-bottom: 0.5rem;
   }
 
@@ -102,53 +103,46 @@ header{
   text-align: center;
 }
 
-.sec {
-    icons {
-        border-color: transparent;
-        background-color: #000;
-        color: #fff;
-    }
-}
-
 .nad {
-        border-radius: 15rem;
-    padding: 1rem;
-    color: #000;
-    background-color: #fff;
-    margin-bottom: 1rem;
+  border-radius: 15rem;
+  padding: 1rem;
+  color: #000;
+  background-color: #fff;
+  margin-bottom: 1rem;
 }
 
 .sec .material-symbols {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .aft {
-    padding-top: 1rem;
-    background-color: #ebebeb;
+  padding-top: 1rem;
+  background-color: #ebebeb;
+
   p {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
 
-.ern { 
-   border-radius: 6rem;  
-   padding: 1rem;  
-   color: #fff;  
+.ern {
+   border-radius: 6rem;
+   padding: 1rem;
+   color: #fff;
    background-color: coral;
 }
 
-.cia {  
-  border-radius: 6rem;  
-  color: antiquewhite;  
-  background-color: transparent;  
+.cia {
+  border-radius: 6rem;
+  color: antiquewhite;
+  background-color: transparent;
   padding: 1rem;
 }
 
-.olog {  
-  border-radius: 6rem;  
-  color: #fff;  
-  background-color: aqua;  
+.olog {
+  border-radius: 6rem;
+  color: #fff;
+  background-color: aqua;
   padding: 1rem;
 }
 
@@ -168,27 +162,27 @@ header{
   border-radius: 2rem;
 }
 
-.day {  
-  display: block;  
-  gap: 1rem;  
-  text-align: center;  
-  padding: 3rem 0;  
-  background-color: #fff;  
-  margin-bottom: 1rem;  
-  width: 200px;  
-  justify-self: center;  
+.day {
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  width: 200px;
+  justify-self: center;
   border-radius: 10px;
 }
 
-.res {  
-  display: block;  
-  gap: 1rem;  
-  background-color: #fff;  
-  text-align: center;  
-  padding: 3rem 0;  
-  margin-bottom: 1rem;  
-  width: 200px;  
-  justify-self: center;  
+.res {
+  display: block;
+  gap: 1rem;
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+  margin-bottom: 1rem;
+  width: 200px;
+  justify-self: center;
   border-radius: 10px;
 }
 
@@ -206,8 +200,8 @@ header{
 
 .like {
   h3 {
-  text-align: center;
-  margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }
 
@@ -222,6 +216,7 @@ header{
 
 .trac {
   padding: 1rem;
+
   h2 {
     margin-bottom: 1rem;
   }
@@ -245,6 +240,7 @@ header{
   margin: 1rem;
   margin-bottom: 1rem;
   border-radius: 10px;
+
   h3 {
     text-align: center;
   }
@@ -267,7 +263,6 @@ header{
   width: 50px;
   height: 50px;
   justify-self: center;
-
 }
 
 .celebrate {
@@ -287,6 +282,7 @@ header{
   margin: 1rem;
   margin-bottom: 1rem;
   border-radius: 10px;
+
   p {
     text-align: center;    
     margin-bottom: 1rem;
@@ -305,6 +301,7 @@ header{
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+
 .def {
   text-align: center;
 }
@@ -316,9 +313,9 @@ header{
   gap: 1rem;
   margin: 2rem;
   border-radius: 1rem;
+
   span {
-    color: coral;
-    
+    color: coral; 
   }
 }
 
@@ -329,8 +326,10 @@ header{
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
+
   p {
     margin-bottom: 1rem;
+
     span {
       margin-bottom: 1rem;
     }
@@ -344,12 +343,14 @@ header{
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
+
   p {
     margin-bottom: 1rem;
+
     span {
       margin-bottom: 1rem;
     }
-  } 
+  }
 }
 
 .kim {
@@ -359,10 +360,11 @@ header{
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
+
   p {
     margin-bottom: 1rem;
-    span {
 
+    span {
       margin-bottom: 1rem;
     }
   }
@@ -375,6 +377,7 @@ header{
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
+
   p {
     margin-bottom: 1rem;
     span {
@@ -390,6 +393,7 @@ header{
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
+
   p {
     margin-bottom: 1rem;
     span {
@@ -405,6 +409,7 @@ header{
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
+
   p {
     margin-bottom: 1rem;
 
@@ -441,11 +446,13 @@ header{
 }
 
 .tag {
+
   ul {
     text-align: center;
     margin-bottom: 2rem;
     li {
       margin-bottom: 1rem;
+
       span {
         color: orange;
       }
@@ -455,6 +462,7 @@ header{
 
 .app {
   background-image: "url(../images/original-6eb844c44e06b4e07223b5d215b270d8.jpg)";
+
   h3 {
     text-align: center;
     margin-bottom: 1rem;
