@@ -20,10 +20,6 @@ header {
   justify-content: space-between;
 }
 
-.first {
-  justify-content: space-between;
-}
-
 .feat {
   display: flex;
   padding: 0.5rem;
@@ -159,7 +155,6 @@ header {
   background-color: #ebebeb;
   text-align: center;
   padding: 3rem 0;
-  border-radius: 2rem;
 }
 
 .day {
@@ -171,7 +166,7 @@ header {
   margin-bottom: 1rem;
   width: 200px;
   justify-self: center;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .res {
@@ -183,7 +178,7 @@ header {
   margin-bottom: 1rem;
   width: 200px;
   justify-self: center;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .arg {
@@ -195,7 +190,7 @@ header {
   margin-bottom: 2rem;
   width: 200px;
   justify-self: center;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .like {
@@ -513,4 +508,168 @@ header {
 .face {
   width: 10px;
   height: 10px;
+}
+
+@media screen and (min-width:768px) {
+  .first {
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+  }
+
+  .second {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .first-part {
+    padding: 1rem;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .but {
+    margin-bottom: 3rem;
+  }
+
+  .franc {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .secto {
+    display: flex;
+    width: 300px;
+    text-align: center;
+  }
+
+  .aft {
+    border-radius: 10px;
+  }
+
+  .bef {
+    border-radius: 10px;
+  }
+
+  .yvn {
+    margin-bottom: 4rem;
+    border-radius: 3px;
+    padding-top: 2rem;
+  }
+  .sty {
+    margin-top: 1rem;
+  }
+
+  .like {
+    padding: 5rem;
+  }
+
+  .view {
+    margin-bottom: 2rem;
+  }
+
+  .both {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .wel {
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+
+  .trac {
+     padding: 2rem;
+  }
+
+  .prog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-self: center;
+  }
+
+  .emo {
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .cam {
+    justify-self: center;
+  }
+
+  .def {
+    padding-top: 3rem;
+  }
+
+  .message {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2rem;
+  }
+
+  .ask{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .abia {
+    padding-top: 9rem;
+  }
+
+  .tag {
+    ul {
+      list-style: none;
+    }
+
+    li {
+      display: flex;
+    }
+  }
+
+  .app {
+      padding: 5rem;
+      margin-bottom: 1rem;
+  }
+
+  .toget {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .eye {
+    list-style: none;
+  }
+
+  .odam {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  .right {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .remo {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+  }
 }
