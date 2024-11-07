@@ -438,7 +438,7 @@ header {
   margin-bottom: 1rem;
 
   span {
-    color: orange;
+   color: orange;
   }
 }
 
@@ -449,16 +449,16 @@ header {
 
     li {
       margin-bottom: 1rem;
-
-      span {
-        color: orange;
-      }
     }
   }
+
+  span {
+    color: orange;
+   }
 }
 
 .app {
-  background-image: url(../images/original-6eb844c44e06b4e07223b5d215b270d8.jpg);
+  background-image: 'url(../images/original-6eb844c44e06b4e07223b5d215b270d8.jpg)';
   text-align: center;
 
   h3 {
@@ -569,6 +569,7 @@ header {
     border-radius: 3px;
     padding-top: 2rem;
   }
+
   .sty {
     margin-top: 1rem;
   }
@@ -592,7 +593,7 @@ header {
   }
 
   .trac {
-     padding: 2rem;
+    padding: 2rem;
   }
 
   .prog {
@@ -620,10 +621,10 @@ header {
     padding: 2rem;
   }
 
-  .ask{
+  .ask {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 1rem;
+    padding: 3rem;
     margin-bottom: 2rem;
   }
 
@@ -642,8 +643,9 @@ header {
   }
 
   .app {
-      padding: 5rem;
-      margin-bottom: 1rem;
+    padding: 5rem;
+    margin-bottom: 1rem;
+    background-image: url(../images/original-6eb844c44e06b4e07223b5d215b270d8.jpg);
   }
 
   .toget {
@@ -665,6 +667,7 @@ header {
   .right {
     display: flex;
     justify-content: space-between;
+    border-top: 2px solid transparent;
   }
 
   .remo {
